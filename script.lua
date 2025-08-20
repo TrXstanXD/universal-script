@@ -171,7 +171,7 @@ UserInputService.InputBegan:Connect(function(input, gpe)
     if input.KeyCode == Enum.KeyCode.RightControl then
         minimized = not minimized
         content.Visible = not minimized
-        title.Text = minimized and "Player Tools (minimized)" or "Player Tools"
+        title.Text = minimized and "made by tristanm5281 (minimized)" or "made by tristanm5281"
         -- hide/show the background by changing the window height
         window.Size = minimized and UDim2.new(0, 280, 0, 28) or UDim2.new(0, 280, 0, 300)
     end
